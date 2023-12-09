@@ -1,0 +1,3 @@
+* response.write() : It is inbuilt method which is used to send the response.
+In the above session we used response.end() to send the response but we can only send one response using this.
+* we can send as many responses as we want using response.write() method
