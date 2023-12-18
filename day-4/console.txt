@@ -1,0 +1,22 @@
+Introduction to console:
+    1.Console class
+    2. Global console instance
+
+console.log() and all its variations
+create a new console
+console.clear()
+console.count()
+console.countReset()
+console.error()
+console.time() and console.timeEnd()
+console.warn()
+
+---------------------------------------------------
+
+The console module provide us debugging console similar to javascript console mechanism web browsers provide us.
+It exports two components:
+
+1. console.class: it includes methods such as 
+console.log() ,console.warn() , console.error()
+
+2. Global console instance: This method is configured to write on process,stderr, process.stdout() and it can be used without exclusively calling the module require('console');

@@ -1,0 +1,7 @@
+In node.js , we are having several mechanisms for error propagating and
+handle those propagated errors while the application is in its running state.
+However the way in which these errors are reported and handled completely depends upon the type of error and API style.
+
+1. Synchronous APIs: These are those APIs which uses blocking method that doesnot accept a callback function and uses throw to report errors.
+
+2. Asynchronous APIs: Errors which occurs in asynchronous APIs can be reported in multiple ways as shown below:
