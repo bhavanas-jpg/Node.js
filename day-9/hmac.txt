@@ -1,0 +1,15 @@
+What is hmac ?
+
+HMAC (keyed- hash message authentication code) is a kind of MAC(Message authentication code)
+"which involves performing the hash functions using a secret cryptographic key".
+just like hash, in HMAC also every generated hash using hashing algorithm is: 
+
+* unique : In hashing, for every unique input we will get unique output.
+we will get the same output no matter how many times you input the same data.
+But if we just slightly change the input it will change the output to a large extent.
+
+*fixed length: hashing algorithms always generate the hash with the same length. 
+The length of input doesnot affect the length of the output.
+
+* Irreversible: Generated hashes are Irreversible in nature.
+We cannot change the hash to the input text again.

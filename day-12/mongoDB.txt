@@ -1,0 +1,11 @@
+* classified as a No SQL database, MongoDB is a scalable, open source , high performance, document-oriented database designed by keeping developers agility in mind.
+* It is document-oriented which means that it doesnot store data in tables and rows as we would in relational databases like MySQL.
+* We store data in JSON like documents with dynamic schema.
+
+Advantages:
+
+1. dynamic schema: If we have an flexible schema then it is ideal for JSON-like documents as in MOngoDB , however it is difficult to implement it in a good manner in Relational databases.
+
+2. Scalability: MongoDB is highly scalable.
+
+3. Cheap: Can be downloaded free of cost.

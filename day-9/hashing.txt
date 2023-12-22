@@ -1,0 +1,26 @@
+crypto module in node.js is used to provide cryptographic functionalities.
+It includes a set of wrappers for OpenSSL's hash, HMAC, cipher,decipher and sign functions.
+
+What is hashing?
+ * Hashing is a process of generating a fixed length value from a string using mathematical
+ functions.
+ * It is used for providing security.
+
+ Unique: 
+ * In hashing, for every unique input we will get unique output.
+ * We will get the same output for same input no matter how many times you input the same data.
+ * But if we just slightly change the input it will change the output to a large extent.
+
+ Fixed length:
+ * Hashing algorithms always generate the hash with the same length.
+ The length of input does not affect the length of the output.
+
+ Irreversible:
+ * Generated hashes are Irreversible in nature.
+ * We cannot change the hash to the input text again.
+
+ Problems with hashing
+
+ * One of the biggest problems with hashing includes the rainbow table
+ * which is a precomputed table for reversing cryptographic hash functions
+ 

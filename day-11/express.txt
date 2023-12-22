@@ -1,0 +1,8 @@
+Express.js or simply express is a minimal node.js web apps framework which is flexible and provides a set of features such as simple APIs used for building backend of websites and mobile applications.
+
+* Express is open-source and currently maintained by node.js foundation.
+* Express also provides us with very basic middleware and declarative routing.
+
+Advantages of using express web application framweork includes:
+1. It makes routing pretty easy.
+2. As it is built on top of node.js, so fast I/O.
